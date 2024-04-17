@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+/* CSS SIGN IN,LOG IN,CHANGE PASSWORD */
+label {
+  margin: 0;
+}
+input {
+  margin: 0;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input--height {
+  padding: 10px 15px;
+  width: 400px;
+  border: 2px solid rgb(181, 173, 173);
+  border-radius: 15px;
+  border: 2px solid rgb(181, 173, 173);
+  border-radius: 15px;
+}
+.flex--label--input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.flex-link {
+  display: flex;
+}
+.link {
+  color: black;
+}
+.btn {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(165, 156, 156);
+}
+.magin-link {
+  margin: 0;
+}
+
+/* CSS HOME PAGE */
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  gap: 317px;
+}
+.header__style--logo {
+  border: 10px solid white;
+  width: 61px;
+  height: 56.4px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header__list {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+}
+.header__flex--logo--ul {
+  display: flex;
+  gap: 47px;
+}
+.header__flex--text--icon {
+  display: flex;
+  gap: 34.6px;
+}
+.main__flex--macair {
+  display: flex;
+}
+.main__h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.main--macair--btn {
+  width: 178px;
+  height: 57px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(219, 215, 215);
+  cursor: pointer;
+}
+.main__btn--gap {
+  display: flex;
+  gap: 23px;
+  margin-top: 52px;
+}
+.main__img {
+  /* position: relative; */
+}
+.main__text {
+  /* position: absolute;
+  z-index: 1; */
+  margin-left: 50px;
+}
+.main__text--h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 5px;
+  color: red;
+}
+.main__text--btn {
+  width: 94px;
+  height: 37px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(205, 198, 198);
+  font-size: 16px;
+  font-weight: 700;
+  background-color: white;
+  cursor: pointer;
+}
+.main__save {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__product--information--ipad--applewatch--img {
+  position: relative;
+}
+.main__product--information--ipad--applewatch--text {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin-top: 20px;
+  margin-left: 13px;
+}
+.main__product--information--ipad--applewatch--text--p {
+  line-height: 21.82px;
+  margin-top: 5px;
+}
+.main__product--information--ipad--applewatch--text--color {
+  position: absolute;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 13px;
+}
+.main__product--information--flexitem {
+  display: flex;
+  margin-top: 29px;
+}
+.main__product--information {
+  margin-top: 36px;
+}
+footer {
+  background-color: rgba(203, 203, 203, 1);
+  display: flex;
+  margin-top: 42px;
+}
+.footer__style--logo {
+  border: 10px solid black;
+  width: 61px;
+  height: 56.4px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo--p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer--flex--logo--text {
+  display: flex;
+  margin-right: 450px;
+  gap: 10.4px;
+}
+.footer__logo--text {
+  margin-top: 65px;
+  margin-bottom: 94px;
+}
+.footer__logo--h3 {
+  margin-top: 12.6px;
+}
+footer ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18px;
+}
+
+/* CSS STORE PAGE */
+.store--h2 {
+  text-decoration: underline;
+  margin-bottom: 49px;
+}
+.store {
+  margin-top: 28px;
+  margin-left: 75px;
+}
+
+.allModelsMac--child {
+  position: relative;
+}
+.store__btn {
+  width: 222px;
+  height: 44px;
+  border: 1px solid black;
+  border-radius: 40px;
+  color: white;
+  background-color: rgba(75, 147, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 25px;
+  left: 95px;
+  cursor: pointer;
+}
+.allModelsMac--child--h3 {
+  position: absolute;
+  bottom: 347px;
+  left: 13px;
+}
+.allModelsMac {
+  display: flex;
+}
+.allModels--h2 {
+  margin-left: 50px;
+  margin-top: 49px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+/* CSS PRODUCT DETAIL PAGE */
+.box1 {
+  width: 59px;
+  height: 59px;
+  border: 2px solid black;
+  background-color: rgba(217, 217, 217, 1);
+  margin: 0;
+  cursor: pointer;
+}
+
+.box2 {
+  width: 59px;
+  height: 59px;
+  border: 2px solid black;
+  background-color: rgba(103, 103, 103, 1);
+  margin: 0;
+  cursor: pointer;
+}
+.main--flex--box--inp {
+  display: flex;
+  gap: 36px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.main--button--span {
+  margin: 0;
+}
+.main--button--calculation {
+  height: 59px;
+  width: 59px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.main--btn--buyNow {
+  width: 373px;
+  height: 59px;
+  font-size: 35px;
+  border: 1px solid black;
+  border-radius: 35px;
+  background-color: rgba(75, 147, 255, 1);
+  color: white;
+  cursor: pointer;
+  margin-top: 43px;
+}
+.main--buy--now {
+  display: flex;
+  margin-top: 91px;
+}
+.main--icon--star {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.main--text--icon--btn {
+  margin-top: revert-layer;
+}
+.main--text--icon--p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  margin-top: 15px;
+}
+.main--information--h3 {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 106px;
+}
+.main--information--p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.main--information {
+  margin-top: 121px;
+  margin-left: 75px;
+}
+
+/* CSS CART */
+.main__flex--img--text {
+  display: flex;
+  gap: 100px;
+  margin-top: 45px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(195, 190, 190);
+  box-shadow: 2px 2px 2px 2px rgb(165, 163, 163);
+  border-radius: 15px;
+}
+.gap--main--text {
+  display: grid;
+  gap: 15px;
+}
+.main__flex--img--text--btn {
+  display: flex;
+}
+#total-money {
+  color: red;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.main__img--text--btn {
+  background-color: rgba(217, 217, 217, 0.18);
+  width: 787.6px;
+  height: 195.9px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 28px;
+}
+.main__btn--background {
+  background-color: rgba(217, 217, 217, 1);
+  width: 153.26px;
+  height: 39.98px;
+  border-radius: 30px;
+  display: flex;
+  margin-left: 69.8px;
+}
+.main__btn {
+  font-size: 30px;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  cursor: pointer;
+}
+.main__img {
+  margin-right: 18.66px;
+}
+.main__text--p {
+  font-weight: 700;
+  /* margin-bottom: 40px;
+  margin-top: 15px; */
+}
+.main__order {
+  width: 470px;
+  height: 670px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.main__order--flex2p {
+  display: flex;
+}
+.main__inp--addpromo {
+  width: 404px;
+  height: 42px;
+  border: 1px solid black;
+  background-color: rgba(217, 217, 217, 0.25);
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 27px;
+}
+.main__btn--apply {
+  width: 82px;
+  height: 29px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  position: absolute;
+  right: 100px;
+  top: 52px;
+}
+.main__inpaddress {
+  width: 404px;
+  height: 72px;
+  border: 1px solid black;
+  padding: 7px;
+  background-color: rgba(217, 217, 217, 0.18);
+  font-size: 22px;
+}
+.main__select {
+  width: 134px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main__btn--paynow {
+  width: 198px;
+  height: 49px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgba(136, 183, 237, 1);
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 645px;
+  margin-top: 50px;
+}
+.main__cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-user {
+  cursor: pointer;
+}
+.main__save--flex--text--img {
+  margin-top: 60px;
+}
+.main__text--p {
+  font-size: 17px;
+}
+#icon-logout {
+  cursor: pointer;
+  display: none;
+}
+.main--button--span {
+  display: flex;
+  gap: 15px;
+  font-size: 25px;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/project-html-css-js.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__flex--logo--ul">
+        <div>
+          <div class="header__style--logo">
+            <p>LoGo</p>
+          </div>
+        </div>
+        <ul class="header__list">
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPhone</li>
+          <li>iPad</li>
+          <li>AirPods</li>
+          <li>Accessories</li>
+        </ul>
+      </div>
+      <div class="header__flex--text--icon">
+        <div>
+          <span id="cartnumber"></span>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+        <i
+          id="icon-login"
+          onclick="signInUser()"
+          class="fa-solid fa-user icon-user"
+        ></i>
+        <span id="current-email"></span>
+        <i
+          id="icon-logout"
+          onclick="handleSignOut()"
+          class="fa-solid fa-right-from-bracket"
+        ></i>
+      </div>
+    </header>
+    <main>
+      <div class="main__flex--macair">
+        <div>
+          <h2 class="main__h2">MacBooK Air</h2>
+          <p>
+            The new 15‑inch MacBook Air makes room for more of<br />
+            what you love with a spacious Liquid Retina display. And<br />with
+            the 13‑inch model, you have more reasons than ever <br />
+            to choose Air. Supercharged by the M2 chip and with up <br />
+            to 18 hours of battery life both laptops deliver blazing- <br />fast
+            performance in an ultraportable design.
+          </p>
+          <div class="main__btn--gap">
+            <button class="main--macair--btn">15- Inch</button>
+            <button class="main--macair--btn">13 Inch M2</button>
+            <button class="main--macair--btn">13 Inch M1</button>
+          </div>
+        </div>
+        <div>
+          <img src="/images/Rectangle 4.png" alt="" />
+        </div>
+      </div>
+      <div class="main__save"></div>
+      <div class="main__product--information">
+        <div class="main__product--information--flexitem">
+          <div class="main__product--information--ipad--applewatch">
+            <div class="main__product--information--ipad--applewatch--text">
+              <h2>iPad Pro</h2>
+              <p class="main__product--information--ipad--applewatch--text--p">
+                M2 chip. The M2 chip is the next generation of Apple silicon,
+                with an 8‑core CPU <br />
+                that delivers up to 15 percent faster performance and a 10‑core
+                GPU that <br />
+                provides up to 35 percent faster graphics performance.
+              </p>
+            </div>
+            <div class="main__product--information--ipad--applewatch--img">
+              <img src="/images/main--product--information--ipad.png" alt="" />
+            </div>
+          </div>
+          <div class="main__product--information--ipad--applewatch">
+            <div
+              class="main__product--information--ipad--applewatch--text--color"
+            >
+              <h2>Apple Watch Ultra</h2>
+              <p class="main__product--information--ipad--applewatch--text--p">
+                Meet the most rugged and capable Apple Watch ever. With a robust
+                titanium case,<br />
+                precision dual-frequency GPS, up to 36 hours of battery life
+              </p>
+            </div>
+            <div class="main__product--information--ipad--applewatch--img">
+              <img
+                src="/images/main--product--information--applewatch.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="main__product--information--flexitem">
+          <div class="main__product--information--ipad--applewatch">
+            <div
+              class="main__product--information--ipad--applewatch--text--color"
+            >
+              <h2>AirPods Max</h2>
+              <p class="main__product--information--ipad--applewatch--text--p">
+                Introducing AirPods Max — a perfect balance of exhilarating
+                high- <br />fidelity audio and the effortless magic of AirPods.
+                The ultimate <br />
+                personal listening experience is here.
+              </p>
+            </div>
+            <div class="main__product--information--ipad--applewatch--img">
+              <img
+                src="/images/main--product--information--airpodsMax.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="main__product--information--ipad--applewatch">
+            <div
+              class="main__product--information--ipad--applewatch--text--color"
+            >
+              <h2>Apple Tv & Home</h2>
+              <p class="main__product--information--ipad--applewatch--text--p">
+                Simply connect your favorite devices and transform your house
+                into a remarkably <br />
+                smart, convenient, and entertaining home. Elevate movie night
+                with theater-like <br />picture and sound. Play any song, in any
+                room, from anywhere. And control lights, <br />
+                locks, and thermostats using Siri. All with the security and
+                privacy of Apple.
+              </p>
+            </div>
+            <div class="main__product--information--ipad--applewatch--img">
+              <img
+                src="/images/main--product--information--appletvandhome.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__logo--text">
+        <div class="footer--flex--logo--text">
+          <div class="footer__style--logo">
+            <p class="logo--p">LoGo</p>
+          </div>
+          <h2>MSP</h2>
+        </div>
+        <h3 class="footer__logo--h3">6391 Elgin St. Celina, Delaware 10299</h3>
+      </div>
+      <ul>
+        <li>About</li>
+        <li>Contact US</li>
+      </ul>
+      <ul>
+        <li>iPhone 14 Series</li>
+        <li>iPhone 13 Series</li>
+        <li>iPhone 12 Series</li>
+        <li>iPhone SE</li>
+      </ul>
+      <ul>
+        <li>iPad Pro</li>
+        <li>iPad</li>
+        <li>iPad Air</li>
+        <li>iPad Mini</li>
+      </ul>
+      <ul>
+        <li>MacBook Air</li>
+        <li>MacBook Pro</li>
+        <li>iMac</li>
+        <li>Mac mini</li>
+      </ul>
+    </footer>
+    <script src="./js/homepage.js"></script>
+  </body>
+</html>

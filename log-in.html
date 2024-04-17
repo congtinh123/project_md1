@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/project-html-css-js.css" />
+  </head>
+  <body>
+    <form onsubmit="handleSubmitLogin(event)">
+      <h1>Log In</h1>
+      <div class="flex--label--input">
+        <label>Email address</label>
+        <input
+          oninput="handlesEmailChecking()"
+          id="email"
+          class="input--height"
+          type="text"
+        />
+        <p id="error-email"></p>
+      </div>
+      <div class="flex--label--input">
+        <label>Password</label>
+        <input
+          oninput="handlesPasswordChecking()"
+          id="password"
+          class="input--height"
+          type="password"
+        />
+        <p id="error-password"></p>
+      </div>
+      <button type="submit" class="btn">Log In Now</button>
+      <a class="link" href="change-password.html">Change password</a>
+      <a class="link" href="signup.html"
+        >If you don't have an account, click here</a
+      >
+    </form>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

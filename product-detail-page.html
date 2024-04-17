@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/project-html-css-js.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__flex--logo--ul">
+        <div>
+          <div onclick="clickLogoChangeHomePage()" class="header__style--logo">
+            <p>LoGo</p>
+          </div>
+        </div>
+        <ul class="header__list">
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPhone</li>
+          <li>iPad</li>
+          <li>AirPods</li>
+          <li>Accessories</li>
+        </ul>
+      </div>
+      <div class="header__flex--text--icon">
+        <div>
+          <span id="cartnumber"></span>
+          <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        <i
+          id="icon-login"
+          onclick="signInUser()"
+          class="fa-solid fa-user icon-user"
+        ></i>
+        <span id="current-email"></span>
+        <i
+          id="icon-logout"
+          onclick="handleSignOut()"
+          class="fa-solid fa-right-from-bracket"
+        ></i>
+      </div>
+    </header>
+    <main id="main-detail">
+      <!-- <div class="main--buy--now">
+        <div>
+          <img src="/images/product-mac-13in.png" />
+          <div class="main--flex--box--inp">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="main--button--span">
+              <button class="main--button--calculation">-</button>
+              <span>1</span>
+              <button class="main--button--calculation">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="main--text--icon--btn">
+          <h1>MacBook Pro 13-inch with M2 chip</h1>
+          <div class="main--icon--star">
+            <i class="fa-solid fa-star fa-2xl" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star fa-2xl" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star fa-2xl" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star fa-2xl" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star fa-2xl" style="color: #ffd43b"></i>
+          </div>
+          <p class="main--text--icon--p"></p>
+          <button class="main--btn--buyNow">Buy Now</button>
+        </div>
+        </div> -->
+      </div>
+    </main>
+    <footer>
+      <div class="footer__logo--text">
+        <div class="footer--flex--logo--text">
+          <div class="footer__style--logo">
+            <p class="logo--p">LoGo</p>
+          </div>
+          <h2>MSP</h2>
+        </div>
+        <h3 class="footer__logo--h3">6391 Elgin St. Celina, Delaware 10299</h3>
+      </div>
+      <ul>
+        <li>About</li>
+        <li>Contact US</li>
+      </ul>
+      <ul>
+        <li>iPhone 14 Series</li>
+        <li>iPhone 13 Series</li>
+        <li>iPhone 12 Series</li>
+        <li>iPhone SE</li>
+      </ul>
+      <ul>
+        <li>iPad Pro</li>
+        <li>iPad</li>
+        <li>iPad Air</li>
+        <li>iPad Mini</li>
+      </ul>
+      <ul>
+        <li>MacBook Air</li>
+        <li>MacBook Pro</li>
+        <li>iMac</li>
+        <li>Mac mini</li>
+      </ul>
+    </footer>
+    <script src="./js/product-detail.js"></script>
+  </body>
+</html>

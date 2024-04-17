@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/project-html-css-js.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__flex--logo--ul">
+        <div>
+          <div onclick="clickLogoChangeHomePage()" class="header__style--logo">
+            <p>LoGo</p>
+          </div>
+        </div>
+        <ul class="header__list">
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPhone</li>
+          <li>iPad</li>
+          <li>AirPods</li>
+          <li>Accessories</li>
+        </ul>
+      </div>
+      <div class="header__flex--text--icon">
+        <div>
+          <span id="cartnumber"></span>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+        <i
+          id="icon-login"
+          onclick="signInUser()"
+          class="fa-solid fa-user icon-user"
+        ></i>
+        <span id="current-email"></span>
+        <i
+          id="icon-logout"
+          onclick="handleSignOut()"
+          class="fa-solid fa-right-from-bracket"
+        ></i>
+      </div>
+    </header>
+    <h2 id="total-money"></h2>
+    <main class="main__cart">
+      <!-- <div>
+        <div class="main__img--text--btn">
+          <div class="main__flex--img--text--btn">
+            <div class="main__flex--img--text">
+              <img class="main__img" src="/images/cart--ipat.png" />
+              <div>
+                <h3>iPad 12.9 Inch Magic Keyboard</h3>
+                <p class="main__text--p">Colour : Black</p>
+                <h2>BDT 33000$</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </main>
+    <button onclick="handleCheckOut()" class="main__btn--paynow">
+      CHECKOUT
+    </button>
+  </body>
+  <script src="./js/cart.js"></script>
+</html>

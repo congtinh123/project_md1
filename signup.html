@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/project-html-css-js.css" />
+  </head>
+  <body>
+    <form onsubmit="handleSubmitSignUp(event)">
+      <div>
+        <h1>Create an account</h1>
+        <div class="flex-link">
+          <p>Already have an account?</p>
+          <a class="link" href="log-in.html">Log in</a>
+        </div>
+      </div>
+      <div class="flex--label--input">
+        <label>User name</label>
+        <input
+          oninput="handlesNameChecking()"
+          id="name"
+          class="input--height"
+          type="text"
+        />
+        <p id="error-name"></p>
+      </div>
+      <div class="flex--label--input">
+        <label>Email address</label>
+        <input
+          oninput="handlesEmailChecking()"
+          id="email"
+          class="input--height"
+          type="text"
+        />
+        <p id="error-email"></p>
+      </div>
+      <div class="flex--label--input">
+        <label>Password</label>
+        <input
+          oninput="handlesPasswordChecking()"
+          id="password"
+          class="input--height"
+          type="password"
+        />
+        <p id="error-password"></p>
+      </div>
+      <div class="flex--label--input">
+        <label>Confirm Password</label>
+        <input
+          oninput="handlesConfirmPasswordChecking()"
+          id="confirm-password"
+          class="input--height"
+          type="password"
+        />
+        <p id="error-confirm-password"></p>
+      </div>
+      <button type="submit" class="btn">Create an account</button>
+    </form>
+    <script src="./js/signup.js"></script>
+  </body>
+</html>
